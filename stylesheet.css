@@ -82,6 +82,8 @@ p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
+  /* improve vertical rhythm so lines don't collapse */
+  line-height: 1.5;
 }
 
 strong {
@@ -100,6 +102,10 @@ h2 {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
+  /* make titles occupy their own line and improve spacing */
+  display: block;
+  line-height: 1.4;
+  margin-bottom: 6px;
 }
 
 .name {
