@@ -116,7 +116,18 @@ h2 {
 }
 
 .one {
+  /* make image container responsive so it doesn't force text to shrink */
+  width: 100%;
+  max-width: 160px;
+  height: auto;
   position: relative;
+  display: block;
+}
+
+.one img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .two {
